@@ -1,0 +1,131 @@
+
+.thisPCHeader {
+    background: #201f27;
+    box-shadow: 0px 0px 5px #ffffff31;
+}
+.this-pc-title {
+    margin-bottom: 10px;
+}
+.this-pc-title img {
+    width: 5%;
+}
+.this-pc-title h4 {
+    display: inline-block;
+    font-size: 0.7rem;
+}
+.this-pc-x {
+    text-align: right;
+}
+
+.menu-icon li {
+    display: inline-block;
+    font-size: 0.9rem;
+    padding: 0 15px;
+}
+.menu-icon li:nth-child(1),
+.menu-icon li:nth-child(6),
+.menu-icon li:nth-child(8) {
+    border-right: 1px solid #dddddd7a;
+}
+.thisPCHeaderBottom .menu-icon li {
+    border-right: 0 !important;
+    padding: 0 6px;
+}
+.thisPCHeaderBottom .menu-icon {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 8px;
+}
+.thisPCHeaderBottom form img {
+    width: 18px;
+    position: absolute;
+    top: 25%;
+    left: 1%;
+}
+.thisPCHeaderBottom form span {
+    font-size: 0.8rem;
+}
+.thisPCHeaderBottom form .arrow-angel-left {
+    position: absolute;
+    top: 22%;
+    left: 4%;
+}
+.thisPCHeaderBottom form .arrow-angel-right {
+    position: absolute;
+    top: 22%;
+    right: 4%;
+}
+.thisPCHeaderBottom form .reload {
+    position: absolute;
+    top: 22%;
+    right: 1%;
+}
+
+.thisPCSearch {
+    background: transparent;
+    border: 1px solid #dddddd38;
+    color: #fff;
+    font-size: 1rem;
+    padding: 5px 50px;
+}
+.SearchThisPC {
+    background: transparent;
+    border: 1px solid #dddddd38;
+    color: #fff;
+    font-size: 1rem;
+    padding: 5px 0px 5px 25px;
+}
+
+.thisPCFolder .col-lg-2 {
+    border-color: #dddddd38 !important;
+}
+
+.folder-list-left img {
+    width: 15px;
+}
+.folder-list-left span,
+.folder-list-left .fa-angle-right {
+    font-size: 0.8rem;
+}
+.folder-list-left li.list-group-item {
+    background: transparent;
+    color: #fff;
+    transition: 0.1s ease-in-out;
+    border: 0 !important;
+}
+.folder-list-left li.list-group-item:hover {
+    background: #201f27;
+    color: #fff;
+    transition: 0.1s ease-in-out;
+}
+
+.thisPCApps img {
+    width: 20%;
+}
+.thisPCApps span {
+    font-size: 0.8rem;
+}
+.thisPCApps {
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.thisPCApps:hover {
+    background: #201f27;
+    margin-bottom: 15px;
+    transition: 0.2s ease-in-out;
+}
+.thisPCApps.d-flex img {
+    width: 77%;
+}
+.thisPCApps .progress {
+    background-color: #e6e6e6;
+    border-radius: 0 !important;
+}
+.thisPCApps .progress-bar {
+    background-color: #26a0da;
+    padding: 0 1rem;
+}

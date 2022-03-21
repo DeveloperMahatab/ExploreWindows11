@@ -1,0 +1,96 @@
+@media only screen and (max-width: 1366px){
+
+
+    .desktop-icon img {
+        width: 33px;
+    }
+    .start-menu-search form {
+        padding: 9px 8px;
+    }
+    .start-menu-search  input[type="search"] {
+        font-size: 0.7rem;
+    }
+    .start-menu-search span {
+        font-size: 17px;
+        color: #ddd;
+        position: absolute;
+        top: 11px;
+        left: 15px;
+    }
+    .start-menu {
+        height: 565px;
+        bottom: 9vh;
+        left: 22rem;
+    }
+    .start-menu-bottom{
+        height: 20px !important;
+    }
+
+
+
+}
+@media only screen and (max-width: 1256px){
+
+    .desktop-icon span {
+        font-size: 10px;
+    }
+    .taskbar-icon img {
+        width: 20px;
+    }
+    .desktop-icon img {
+        width: 29px;
+    }
+    h5{
+        font-size: 0.75rem !important;
+    }
+    .apps-details span, .recommended-app-caption span{
+        font-size: 0.6rem !important;
+    }
+    .app-gallery-title span {
+        font-size: 10px;
+    }
+    .pc-user img {
+        width: 24px;
+    }
+    .pc-user span {
+        font-size: 10px;
+    }
+    li.list-group-item {
+        font-size: 0.6rem !important;
+    }
+    ul.list-group.position-absolute.power-item {
+        bottom: 6vh;
+    }
+    .start-menu {
+        bottom: 9vh;
+        left: 16rem;
+        width: 570px;
+        height: 515px;
+    }
+    .start-app-gallery.mt-2 img {
+        width: 25px;
+        height: 25px;
+    }
+
+
+
+
+}
+@media only screen and (max-width: 1100px){
+
+
+    .start-menu {
+        bottom: 9vh;
+        left: 13rem;
+    }
+    input[type="button"] {
+        width: 65px;
+        height: 60px;
+    }
+    input[type="text"] {
+        width: 260px;
+    }
+
+
+
+}
